@@ -1,0 +1,28 @@
+.history {
+    position: absolute;
+    top: 36px;
+    left: 86px;
+    padding: 4px 0;
+    z-index: 1050;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.04);
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px 0 #eee;
+    box-sizing: border-box;
+    width: calc(100% - 87px);
+    li {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        &:hover {
+            background-color: rgba(0,0,0,.04);
+        }
+    }
+}
+.activeColor {
+    background-color: rgba(0,0,0,.04);
+    color: #0a70f5;
+}
